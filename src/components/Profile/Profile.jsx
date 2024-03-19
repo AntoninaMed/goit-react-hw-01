@@ -1,7 +1,7 @@
 import styles from "./Profile.module.css"
 const Profile = ({name,tag,location,image,stats}) =>{
     return(
-      <div>
+      <div className={styles.task}>
     <div className={styles.card}>
   <div className={styles.profile}>
     <img
